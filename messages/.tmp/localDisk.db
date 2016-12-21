@@ -1,0 +1,40 @@
+{
+  "data": {
+    "profile": [
+      {
+        "profileId": "a8fda505-e2c5-43d9-bdc2-6ca121d9aa28",
+        "profileName": "Медведев Д.А.",
+        "createdAt": "2016-12-18T21:57:44.580Z",
+        "updatedAt": "2016-12-18T21:57:44.580Z",
+        "id": 1
+      }
+    ]
+  },
+  "schema": {
+    "profile": {
+      "profileId": {
+        "type": "string"
+      },
+      "profileName": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "profile": {
+      "id": 1
+    }
+  }
+}
