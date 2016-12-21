@@ -1,0 +1,16 @@
+{
+  "name": "bot",
+  "version": "0.1.0",
+  "description": "The my first bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anatoliy A Aksenov",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.4.4",
+    "request-promise": "^4.1.1",
+    "sails-disk": "^0.10.10"
+  }
+}
