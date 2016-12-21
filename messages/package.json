@@ -9,8 +9,12 @@
   "author": "Anatoliy A Aksenov",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.4.6",
     "botbuilder": "^3.4.4",
+    "request": "^2.79.0",
     "request-promise": "^4.1.1",
-    "sails-disk": "^0.10.10"
+    "restify": "^4.3.0",
+    "sails-disk": "^0.10.10",
+    "waterline": "^0.11.6"
   }
 }
