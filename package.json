@@ -16,6 +16,7 @@
     "request-promise": "^4.1.1",
     "restify": "^4.3.0",
     "sails-disk": "^0.10.10",
+    "validator": "^6.2.0",
     "waterline": "^0.11.6"
   }
 }
